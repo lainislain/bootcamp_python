@@ -1,8 +1,8 @@
 import sys
 import re
 
-if len(sys.argv) != 3 or sys.argv[2].isdigit() is False\
-   or sys.argv[1].isdigit() is True:
+if len(sys.argv) != 3 or not sys.argv[2].isdigit()\
+   or sys.argv[1].isdigit():
     print("ERROR")
     exit()
 str = []
