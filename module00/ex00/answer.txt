@@ -1,0 +1,5 @@
+pip list | cut -d " " -f1
+pip list
+pip show --verbose numpy
+pip search tesseract
+pip freeze > requirements.txt
